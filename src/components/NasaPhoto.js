@@ -7,8 +7,8 @@ const NasaPhoto = (props) => {
         <div className="nasa-photo-wrapper">
             <h3>{props.photo.title}</h3>
             <p>{props.photo.date}</p>
-            <img src={props.phto.hdurl}/>
-            <p className="explanation">{props.phto.explanation}</p>
+            <img src={props.photo.hdurl}/>
+            <p className="explanation">{props.photo.explanation}</p>
         </div>
     )
 }
