@@ -1,14 +1,23 @@
 import React from 'react';
-
+import styled from 'styled-components'
 
 
 const NasaPhoto = (props) => {
+    const Title = styled.h3`
+    color: white;
+    `
+
+    const Explanation = styled.p`
+    max-width: 70%;
+    `
+
+
     return (
         <div className="nasa-photo-wrapper">
-            <h3>{props.photo.title}</h3>
+            <Title>{props.photo.title}</Title>
             <p>{props.photo.date}</p>
             <img src={props.photo.hdurl}/>
-            <p className="explanation">{props.photo.explanation}</p>
+            <Explanation>{props.photo.explanation}</Explanation>
         </div>
     )
 }

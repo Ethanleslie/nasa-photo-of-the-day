@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282d35;
+  color: white
 }
 
 .App-logo {
@@ -43,11 +45,15 @@
   align-items: center;
 }
 
-.explanation {
-max-width: 50%;
-}
+
+
 
 img {
   max-width: 60%;
   object-fit: cover;
+  
 }
+
+
+
+
